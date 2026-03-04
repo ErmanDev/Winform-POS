@@ -57,7 +57,7 @@
             // button2
             // 
             button2.BackColor = SystemColors.ActiveCaption;
-            button2.Location = new Point(190, 3);
+            button2.Location = new Point(201, 3);
             button2.Name = "button2";
             button2.Size = new Size(182, 153);
             button2.TabIndex = 1;
@@ -67,7 +67,7 @@
             // button3
             // 
             button3.BackColor = SystemColors.ActiveCaption;
-            button3.Location = new Point(190, 162);
+            button3.Location = new Point(201, 162);
             button3.Name = "button3";
             button3.Size = new Size(182, 120);
             button3.TabIndex = 3;
@@ -88,7 +88,7 @@
             // button5
             // 
             button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(190, 424);
+            button5.Location = new Point(201, 424);
             button5.Name = "button5";
             button5.Size = new Size(182, 153);
             button5.TabIndex = 7;
@@ -108,7 +108,7 @@
             // button7
             // 
             button7.BackColor = SystemColors.ActiveCaption;
-            button7.Location = new Point(190, 288);
+            button7.Location = new Point(201, 288);
             button7.Name = "button7";
             button7.Size = new Size(182, 130);
             button7.TabIndex = 5;
@@ -128,7 +128,7 @@
             // button9
             // 
             button9.BackColor = SystemColors.ActiveCaption;
-            button9.Location = new Point(190, 741);
+            button9.Location = new Point(201, 741);
             button9.Name = "button9";
             button9.Size = new Size(182, 153);
             button9.TabIndex = 11;
@@ -148,7 +148,7 @@
             // button11
             // 
             button11.BackColor = SystemColors.ActiveCaption;
-            button11.Location = new Point(190, 583);
+            button11.Location = new Point(201, 583);
             button11.Name = "button11";
             button11.Size = new Size(182, 152);
             button11.TabIndex = 9;
@@ -183,7 +183,9 @@
             tableLayoutPanel1.Controls.Add(button7, 1, 2);
             tableLayoutPanel1.Controls.Add(button6, 0, 3);
             tableLayoutPanel1.Dock = DockStyle.Right;
-            tableLayoutPanel1.Location = new Point(1058, 0);
+            tableLayoutPanel1.GrowStyle = TableLayoutPanelGrowStyle.FixedSize;
+            tableLayoutPanel1.Location = new Point(1036, 0);
+            tableLayoutPanel1.Margin = new Padding(3, 3, 50, 3);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 6;
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
@@ -192,7 +194,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
-            tableLayoutPanel1.Size = new Size(375, 1049);
+            tableLayoutPanel1.Size = new Size(397, 1049);
             tableLayoutPanel1.TabIndex = 12;
             // 
             // Form1
